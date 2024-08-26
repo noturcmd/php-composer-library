@@ -1,15 +1,15 @@
 <?php
 
-    namespace rein\Belajar;
-    class Customer{
+namespace perl\belajar;
 
-        public function __construct(private string $name){
+class Customer{
 
-        }
-
-        public function sayHello(string $name):string{
-            return "Hello $name, My name is $this->name";
-        }
-
-
+    public function __construct(private string $nama)
+    {
     }
+
+    public function sayHello(string $nama):string
+    {
+        return "Hello $nama, my name is $this->nama";
+    }
+}
